@@ -97,3 +97,13 @@ switch(true) {
                 console.log("No valid case found.");
                 
 }
+switch (true) {
+    case actions.includes(userAction) && isLoggedIn : // so the userAction and the isLoggedinare both correct then
+    console.log("Action: + userAction");
+    break;
+    case actions.includes(userAction) && isLoggedIn : // but if the userAction is correct and the isLoggedin which means not loggedin which is wrong
+    console.log("please log in to perform this action")
+    break;
+    default:
+        console.log("no valid case found."); // this can only take place if the matter in switch is false git
+}
